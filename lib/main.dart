@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demos/auto_scroll/home_page.dart';
+import 'package:flutter_demos/auto_scroll/home_page.dart' as autoScroll;
+import 'package:flutter_demos/clock/home_page.dart' as clock;
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: const HomePage(),
+      home: const clock.HomePage(),
     );
   }
 }
